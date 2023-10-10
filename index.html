@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gestion des cookies">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Cookies</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="title">Création de <span>Cookies</span></h1>
+    </header>
+    <form action="#">
+        <div class="cookie-container">
+            <div class="cookie-group">
+                <label for="cookie-input-name">Nom du cookie</label>
+                <input type="text" name="cookie-input-name" id="cookie-input-name" placeholder="Nom du cookie" required>
+            </div>
+            <div class="cookie-group">
+                <label for="cookie-input-value">Valeur du cookie</label>
+                <input type="text" name="cookie-input-value" id="cookie-input-value" placeholder="Valeur du cookie"
+                    required>
+            </div>
+        </div>
+        <div class="cookie-button">
+            <button class="btn" type="submit">Créer</button>
+            <button class="btn show-button" type="button">Afficher</button>
+        </div>
+    </form>
+    <div class="cookie-display">
+    </div>
+    <p class="toast"></p>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
